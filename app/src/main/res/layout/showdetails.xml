@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#d4f7b7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+         android:layout_gravity="center"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bigtitle"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/bignotes"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Click here to delete!"
+        android:layout_marginTop="30dp"
+        android:id="@+id/deletebutton"
+        android:onClick="DeleteNote"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+</LinearLayout>
